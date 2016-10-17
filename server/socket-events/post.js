@@ -2,8 +2,6 @@ const PostList = require('../../lib/classes/PostList');
 const list     = new PostList();
 
 module.exports = function (io, post) {
-	post.message = post.message.trim();
-
 	switch (post.message) {
 
 		case '-p':
