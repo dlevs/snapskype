@@ -18,5 +18,5 @@ module.exports = function (io, post) {
 			break;
 
 	}
-	io.sockets.emit('post', list.posts);
+	io.sockets.emit('post', list.data);
 };
